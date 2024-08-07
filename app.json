@@ -1,0 +1,28 @@
+{
+  "name": "Hlist",
+  "description": "Alist for Heroku",
+  "keywords": ["hlist"],
+  "env": {
+    "CACHE_EXPIRATION": {
+      "description": "Cache invalidation time (unit: minutes)",
+      "value": "60"
+    },
+    "CLEANUP_INTERVAL": {
+      "description": "Clear the invalidation cache interval",
+      "value": "120"
+    },
+    "ASSETS": {
+      "description": "static resources",
+      "value": "https://www.npmjs.com/package/alist-web@$version/dist/"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "website": "https://github.com/SanujaNS/alist-for-h",
+  "repository": "https://github.com/krishd9895/Klist_clone",
+  "logo": "https://sanuja.biz/images/logo.svg",
+  "stack": "container"
+}
